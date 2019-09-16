@@ -14,6 +14,14 @@
 		74455E70232FFB1A000FCF14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74455E6E232FFB1A000FCF14 /* LaunchScreen.storyboard */; };
 		74455E7B232FFB1A000FCF14 /* MobilePhoneBuyerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E7A232FFB1A000FCF14 /* MobilePhoneBuyerTests.swift */; };
 		74455E86232FFB1A000FCF14 /* MobilePhoneBuyerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E85232FFB1A000FCF14 /* MobilePhoneBuyerUITests.swift */; };
+		74455E9C232FFBB9000FCF14 /* MobileListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E94232FFBB9000FCF14 /* MobileListStore.swift */; };
+		74455E9D232FFBB9000FCF14 /* MobileListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E95232FFBB9000FCF14 /* MobileListPresenter.swift */; };
+		74455E9E232FFBB9000FCF14 /* MobileListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E96232FFBB9000FCF14 /* MobileListWorker.swift */; };
+		74455E9F232FFBB9000FCF14 /* MobileListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E97232FFBB9000FCF14 /* MobileListRouter.swift */; };
+		74455EA0232FFBB9000FCF14 /* MobileListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E98232FFBB9000FCF14 /* MobileListModels.swift */; };
+		74455EA1232FFBB9000FCF14 /* MobileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E99232FFBB9000FCF14 /* MobileListViewController.swift */; };
+		74455EA2232FFBB9000FCF14 /* MobileListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E9A232FFBB9000FCF14 /* MobileListInteractor.swift */; };
+		74455EA3232FFBB9000FCF14 /* MobileListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74455E9B232FFBB9000FCF14 /* MobileListEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		74455E81232FFB1A000FCF14 /* MobilePhoneBuyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilePhoneBuyerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74455E85232FFB1A000FCF14 /* MobilePhoneBuyerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePhoneBuyerUITests.swift; sourceTree = "<group>"; };
 		74455E87232FFB1A000FCF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74455E94232FFBB9000FCF14 /* MobileListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileListStore.swift; sourceTree = "<group>"; };
+		74455E95232FFBB9000FCF14 /* MobileListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileListPresenter.swift; sourceTree = "<group>"; };
+		74455E96232FFBB9000FCF14 /* MobileListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileListWorker.swift; sourceTree = "<group>"; };
+		74455E97232FFBB9000FCF14 /* MobileListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileListRouter.swift; sourceTree = "<group>"; };
+		74455E98232FFBB9000FCF14 /* MobileListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileListModels.swift; sourceTree = "<group>"; };
+		74455E99232FFBB9000FCF14 /* MobileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileListViewController.swift; sourceTree = "<group>"; };
+		74455E9A232FFBB9000FCF14 /* MobileListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileListInteractor.swift; sourceTree = "<group>"; };
+		74455E9B232FFBB9000FCF14 /* MobileListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileListEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,7 @@
 		74455E64232FFB19000FCF14 /* MobilePhoneBuyer */ = {
 			isa = PBXGroup;
 			children = (
+				74455E93232FFB94000FCF14 /* MobileList */,
 				74455E65232FFB19000FCF14 /* AppDelegate.swift */,
 				74455E67232FFB19000FCF14 /* ViewController.swift */,
 				74455E69232FFB19000FCF14 /* Main.storyboard */,
@@ -123,6 +140,21 @@
 				74455E87232FFB1A000FCF14 /* Info.plist */,
 			);
 			path = MobilePhoneBuyerUITests;
+			sourceTree = "<group>";
+		};
+		74455E93232FFB94000FCF14 /* MobileList */ = {
+			isa = PBXGroup;
+			children = (
+				74455E94232FFBB9000FCF14 /* MobileListStore.swift */,
+				74455E95232FFBB9000FCF14 /* MobileListPresenter.swift */,
+				74455E96232FFBB9000FCF14 /* MobileListWorker.swift */,
+				74455E97232FFBB9000FCF14 /* MobileListRouter.swift */,
+				74455E98232FFBB9000FCF14 /* MobileListModels.swift */,
+				74455E99232FFBB9000FCF14 /* MobileListViewController.swift */,
+				74455E9A232FFBB9000FCF14 /* MobileListInteractor.swift */,
+				74455E9B232FFBB9000FCF14 /* MobileListEntity.swift */,
+			);
+			path = MobileList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74455E9E232FFBB9000FCF14 /* MobileListWorker.swift in Sources */,
+				74455E9D232FFBB9000FCF14 /* MobileListPresenter.swift in Sources */,
+				74455E9F232FFBB9000FCF14 /* MobileListRouter.swift in Sources */,
 				74455E68232FFB19000FCF14 /* ViewController.swift in Sources */,
+				74455EA3232FFBB9000FCF14 /* MobileListEntity.swift in Sources */,
+				74455EA1232FFBB9000FCF14 /* MobileListViewController.swift in Sources */,
+				74455E9C232FFBB9000FCF14 /* MobileListStore.swift in Sources */,
+				74455EA0232FFBB9000FCF14 /* MobileListModels.swift in Sources */,
+				74455EA2232FFBB9000FCF14 /* MobileListInteractor.swift in Sources */,
 				74455E66232FFB19000FCF14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
